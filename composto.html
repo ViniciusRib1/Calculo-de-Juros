@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculo de juros</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.google.com/specimen/SUSE" rel="stylesheet">
+
+</head>
+
+<body>
+    <div class="escolha">
+        <div class="titulo">
+            <h1>Juros</h1>
+        </div>
+        <a href="index.html" onclick="simples()" >Simples</a>
+        <a href="composto.html" onclick="composto()" id="select">Composto</a>
+    </div>
+    <div class="juros" id="composto">
+        <header><h1>Calculo de Juros composto</h1></header>
+        <div class="infs">
+            <h1>Informações</h1>
+            <div class="itens">
+                <p>Juros (%) : <input type="number" id="juros"></p>
+                <p>Capital (R$) : <input type="number" id="capital"></p>
+                <p>Tempo (meses) : <input type="number" id="tempo"></p>
+                <h2>Resultado do moltante: <h2 id="resultado"></h2></h2> 
+            </div>
+            <button onclick="JursosComposto()">Calcular</button>
+    </div>
+    </div>
+    <footer>
+        <h1>Feito por Vinicius Ribeiro</h1>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

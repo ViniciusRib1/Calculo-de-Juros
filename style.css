@@ -1,0 +1,84 @@
+@import url('https://fonts.google.com/specimen/SUSE');
+body {
+    margin: 0px;
+    font-family: SUSE;
+}
+.escolha {
+    text-align: center;
+    padding: 20px;
+    text-decoration: none; 
+    background-color: rgb(23, 2, 105);
+    color: white;
+}
+.escolha h1 {
+    border-bottom: 2px solid white;
+    padding: 1%;
+}
+.escolha a {
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+    text-decoration: none;
+    color: white;
+}
+.escolha a#select {
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+    text-decoration: none;
+    border-bottom: 2px solid white;
+}
+.escolha a:hover {
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+    text-decoration: none;
+    border-bottom: 2px solid white;
+}
+.juros {
+    margin: auto;
+    text-align: center;
+    border: rgb(23, 2, 105) 2px solid;
+    width: 60%;
+    height: 80%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+.juros header {
+    background-color: rgb(23, 2, 105);
+    color: white;
+    padding: 10px;
+}
+footer {
+    position: absolute;
+    background-color: rgb(23, 2, 105);
+    color: white;
+    text-align: center;
+    padding: 2%;
+    width: 96%;
+}
+.infs {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.infs button {
+    background-color: rgb(23, 2, 105);
+    color: white;
+    padding: 2%;
+    border: none;
+    transition: all 0.5s;
+    border: rgb(23, 2, 105) 2px solid;
+}
+.infs button:hover {
+    background-color: rgb(255, 255, 255);
+    color: rgb(23, 2, 105);
+    border: rgb(23, 2, 105) 2px solid;
+    cursor: pointer;
+    transition: all 0.5s;
+    padding: 2%;
+}
+.itens {
+    text-align: left;
+    margin-left: 10%;
+}
